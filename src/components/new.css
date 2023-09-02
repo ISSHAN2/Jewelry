@@ -1,0 +1,78 @@
+.jino{
+    gap: 950;
+    flex: 1;
+    height:560px;
+    background-color: rgba(209, 220, 177, 0.76);
+    width: auto;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.gao{
+  width:1500px;
+  height:500px;
+  background-color: rgba(255, 255, 255, 0.76);
+  width: 300;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.gao img{
+  width:500px;
+  height:300px;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+
+}
+.gao img:hover{
+  transform: translateX(10px);
+}
+.jino div h1{
+
+  font-family: 'Blacker';
+  font-weight: 800px;
+
+
+}
+.jino div h2{
+
+  flex-direction:column;
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 20px;
+
+
+}
+
+
+.naamo {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ishano {
+    transition: transform 0.3s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ishano:hover{
+    transform: scale(1.05);
+}
+.jiji{
+    margin-left: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+}

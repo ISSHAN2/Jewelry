@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+  font-family: 'Blacker';
+  src: url(fonts/Blacker-Display-Light-trial.ttf);
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+*{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+ 
+}
+.subss{
+  background-color: #d2e1da;
+  display: flex;
+  width: 1100px;
+  height: 415px;
+  margin-top: 150px;
+  flex-direction: row;
+  margin-left: 300px;
+
+}
+.map{
+  margin-bottom: 20px;
+  padding-top: 200px;
+  margin-left: 300px;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start; 
+  
+}
+.text {
+  display: flex;
+  flex-direction: column; /* Vertical layout */
+}
+.map h1{
+  
+  color: #747474;
+  font-weight: 100;
+  font-size: 35px;
+  font-family: 'Blacker';
+  margin: 0px;
+}
+.map h2{
+  padding-left: 100px;
+  white-space:nowrap;
+  
+  transform: translate(-50%, -50%);
+  color: #d8bf64;
+  font-weight: 10;
+  font-size: 135px;
+  font-family: 'Qwitcher Grypen', cursive;
+  margin:0px ;
+}
+iframe {
+  border-radius: 20px;
+  width: 800px; 
+  height: 500px; 
+  margin-right: 20px;
+}
+
+.end{
+  padding-top: 00px;
+  height: 415px;
+  width:600px;
+  border-radius: 0px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/setij.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin-top: 0;
+  
+}
+.store{
+  gap: 750;
+  flex: 1;
+  height:560px;
+  background-color: rgba(239, 239, 239, 0.76);
+  width: auto;
+  margin-top: 350px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store div{
+  width:500px;
+  height:260px;
+  background-color: rgba(255, 255, 255, 0.76);
+  width: 300;
+  padding: 30px;
+  border-radius: 20px;
+
+
+}
+.boxp img{
+  width:100px;
+  transition: transform 0.3s ease;
+
+}
+.boxp img:hover{
+   transform: translateX(20px);
+}
+.store div h1{
+
+  font-family: 'Blacker';
+  font-weight: 800px;
+
+
+}
+.store div h2{
+
+  flex-direction:row;
+  font-family: 'Poppins';
+  font-weight: 100;
+  font-size: 20px;
+
+
+}
+
+.kuji{
+  border-radius: 20px;
+}
+.navbar {
+  gap: 550px;
+  background-color: rgb(255, 255, 255); /* Slightly transparent background */
+  background-image: url('path/to/grainy-texture.png'); /* Replace with actual path */
+  background-size: cover; /* Adjust as needed */
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 10px;
+  width: calc(100% - 260px); /* Width minus horizontal padding */
+  top: 30px; /* Add a gap from the top */
+  left: 50%; /* Adjust as needed */
+  transform: translateX(-50%); /* Center horizontally */
+  border-radius: 15px; /* Add rounded corners */
+  /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Floating shadow effect */
+  z-index: 1000;
+  transition: all 0.3s ease; /* Add transition */
+}
+.lol{
+  font-family: 'Blacker';
+  padding-top: 50px;
+  font-weight: 800;
+  color: aliceblue;
+  
+}
+.navbar.hidden {
+  transform: translateX(-50%) scale(0.8); /* Smaller width */
+  opacity: 0; 
+}    
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 0;
+}
+.nadu{
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  border:none;
+
+}
+
+.nav-item a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.spopo{
+  height:100px;
+}
+.popo{
+  height: 300px;
+}
+.nav-item a:hover {
+  color: goldenrod;
+}
+.nadu:hover{
+  color: goldenrod;
+
+}
+.carousel-container {
+  flex: 1; /* Take up available space */
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  max-width: 2100px;
+  max-height: 1500px;
+  width: 800px;
+  height:900px;
+  border-radius: 20px;
+  margin: 30px auto 0;
+  /* Add other desired styles */
+}
+.carousel-tagline-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+.tagline{
+  line-height: 195%;
+  
+  color: rgb(183, 164, 141);
+  
+  font-size: 65px;
+  font-weight: 400;
+  font-family: 'Qwitcher Grypen', cursive;
+  
+}
+.carousel-image {
+  width: 10%; /* Set the desired fixed width */
+  height:10%; /* Maintain aspect ratio */
+  border-radius: 20px; /* Apply rounded corners to images */
+  transition: filter 0.4s ease; /* Smooth transition for the filter effect */
+}
+.tagline-section {
+  gap: 750;
+  flex: 1; /* Take up available space */
+  padding: 40px;
+  text-align: center;
+  /* Other tagline section styles */
+}
+.tagline-container {
+  gap: 750;
+  flex: 1;
+  height:860px;
+  background-color: rgba(0, 0, 0, 0.76);
+  border-radius: 15px;
+  width: auto;
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Other tagline container styles */
+}
+
+.bhap h1{
+  color: #747474;
+  font-weight: 100;
+  font-size: 35px;
+  font-family: 'Blacker';
+  margin-left: 300px;
+  padding-right:1050px ;
+
+}
+.image-grid {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 20px;
+}
+.bhap h2{
+  padding-top: 70px;
+  transform: translate(-50%, -50%);
+  color: #d8bf64;
+  font-weight: 10;
+  font-size: 135px;
+  font-family: 'Qwitcher Grypen', cursive;
+  padding-left:1200px ;
+  white-space: nowrap;
+
+}
+.image-grid img {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+  /* Other image styles */
+}
+.carousel-container:hover {
+  filter: brightness(1.1); /* Apply a brightness filter when hovering */
+}
+
+
+.shop-now-button {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+.shop-now-button button {
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.carousel-container:hover .shop-now-button {
+  display: block;
+}
+.image-grid { 
+  
+  max-height:200px;
+  max-width: 880px;
+  width: 100%;
+  margin: 50px auto;
+  
+}
+
+.row { display: flex; border-radius: 10px; margin-top: 20px; overflow: hidden;
+  font-family: "Poppins", sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 6px; }
+      
+.box { font-family: "Poppins", sans-serif;width: 33.3%; height: 300px; transition: width 1s;
+          margin-top: auto; overflow: hidden; position: relative; }
+          
+.box:hover { width: 66%; }
+      
+.box h3,i { font-family: "Poppins", sans-serif;position: absolute; color: rgb(231, 231, 231); margin: 10px; z-index: 1; }
+
+.box i { visibility: hidden; right: 10px; cursor: pointer; font-size: 18px; }
+.box:hover i { visibility: visible; transition-delay: .6s; }
+
+.box img { object-fit: cover; width: 100%; height: 100%; filter: brightness(70%); }
+
+.ooyes{
+  width:600px;
+  margin-top: 100px;
+  float: right;
+  margin-right: 400px;
+  transform: rotate(1.5deg);
+
+
+}
+.bhap div{
+  height:300px;
+}

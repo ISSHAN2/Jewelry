@@ -1,0 +1,48 @@
+.wall {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    padding: clamp(1rem, 5vw, 6rem);
+}
+  
+.panja {
+    color: rgba(255, 255, 255, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(3rem, 8vw, 10rem);
+    font-weight: 300;
+    text-decoration: none;
+    position: relative;
+  }
+  
+#wall a span {
+    text-align: center;
+    color: rgb(163, 159, 159);
+    display: block;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+  
+#wall a img {
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.25s ease;
+    opacity: 0;
+    width: min(40vw, 500px);
+    pointer-events: none;
+}
+  
+#wall a:hover {
+    color: #fff;
+}
+  
+#wall a:hover span {
+    border-color: #fff;
+}
+  
+#wall a:hover img {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
